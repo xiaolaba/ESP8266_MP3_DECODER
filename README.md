@@ -1,3 +1,20 @@
+# want a quick test but do not know how to build firmware ?
+This may help those who is new to this MCU / Linux build process.
+see https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/ReadMe.xiaolaba.txt
+
+rom images is ready for the job, https://github.com/xiaolaba/ESP8266_MP3_DECODER/tree/master/rom_RTHK2_public
+
+this firmware relys on ESP8266 only, no DAC chip, no SRAM chip;
+
+Once you are done and wanna to build on your own, follow the espressif's build instructions and tool chain as following, use RTOS SDK only, https://github.com/espressif/ESP8266_RTOS_SDK.
+
+
+
+
+
+
+
+
 # I2S MP3 webradio streaming example
 
 This is an example of how to use the I2S module inside the ESP8266 to output
