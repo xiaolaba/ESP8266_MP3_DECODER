@@ -1,0 +1,33 @@
+ESP8266 web radio, test
+by xiaolaba, 2017-JUN-23
+
+hardware : NodeMCU or ESP-12 or those clone.
+
+Default wifi router:
+  setup your wifi router as following for test,
+  wifi name : xiaolaba_tap
+  wifi password : 123456789
+
+Burn rom image:
+  open dosbox.bat, under command line,
+  c.bat : to clear flash
+  b.bat : toburn rom images
+
+Run this web radio receiver:
+  connect audio amp input to RX0 of NodeMCU or ESP-12
+  connect audio amp gnd to GND of NodeMCU or ESP-12
+  power up
+
+optional:
+  connect to terminal, 115200 N81, your will see the debug output.
+
+Remark:
+  ROM images are coursety provided here just for own quick test.
+  Only a single radio station is here, http://stm2.rthk.hk/radio2
+  No other support and liability incurred at any means.
+  In case you want build your own ROM & preference, see original source code at,
+  software : https://github.com/espressif/ESP8266_MP3_DECODER
+
+special note:
+  PL2303 is not working for 26MHZ & boot time 74880 baud.
+  CH340G / CP2102 is fine.
