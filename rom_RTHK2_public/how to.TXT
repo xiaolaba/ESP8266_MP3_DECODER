@@ -19,7 +19,7 @@ Run this web radio receiver:
   power up
 
 optional:
-  connect to terminal, 115200 N81, your will see the debug output.
+  connect to terminal, 115200 N81, you will see the debug output.
 
 Remark:
   ROM images are coursety provided here just for own quick test.
