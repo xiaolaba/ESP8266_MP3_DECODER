@@ -2,7 +2,7 @@
 This may help those who is new to this MCU / Linux build process.
 see https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/ReadMe.xiaolaba.txt
 
-rom images is ready for the job, https://github.com/xiaolaba/ESP8266_MP3_DECODER/tree/master/rom_RTHK2_public
+rom images are ready for the job, https://github.com/xiaolaba/ESP8266_MP3_DECODER/tree/master/rom_RTHK2_public
 
 this firmware relys on ESP8266 only, no DAC chip, no SRAM chip;
 
