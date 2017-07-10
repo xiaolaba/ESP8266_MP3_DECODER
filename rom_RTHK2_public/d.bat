@@ -12,7 +12,7 @@ cls
 @echo.
 if [%1]==[] goto no_com
 
-esptool.exe -vv -cp com%1 -cc esp8266% -ca 0x00000 -cf 0x00000_PWM.bin -ca 0x0a0000 -cf 0xA0000_PWM.bin 
+esptool.exe -vv -cp com%1 -cc esp8266% -ca 0x00000 -cf 0x00000_DAC.bin -ca 0x0a0000 -cf 0xA0000_DAC.bin 
 goto eof
 
 :no_com

@@ -1,3 +1,7 @@
+Update by xiaolaba, 2017-JUL-10
+include rom images for PWM mode and DAC mode
+DAC mode is much clear and less glitching in our case;
+
 ESP8266 web radio, test
 by xiaolaba, 2017-JUN-23
 
@@ -11,7 +15,8 @@ Default wifi router:
 Burn rom image:
   open dosbox.bat, under command line,
   c.bat : to clear flash
-  b.bat : toburn rom images
+  b.bat : to burn rom images, sound output is in PWM mode
+  d.bat : to burn rom images, sound output is in DAC mode
 
 Run this web radio receiver:
   connect audio amp input to RX0 of NodeMCU or ESP-12
@@ -19,7 +24,7 @@ Run this web radio receiver:
   power up
 
 optional:
-  connect to terminal, 115200 N81, you will see the debug output.
+  connect to terminal, 115200 N81, your will see the debug output.
 
 Remark:
   ROM images are coursety provided here just for own quick test.
@@ -31,3 +36,4 @@ Remark:
 special note:
   PL2303 is not working for 26MHZ & boot time 74880 baud.
   CH340G / CP2102 is fine.
+  
