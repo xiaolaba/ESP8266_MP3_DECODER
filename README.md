@@ -9,6 +9,25 @@ this firmware relys on ESP8266 only, no DAC chip, no SRAM chip;
 Once you are done and wanna to build on your own, follow the espressif's build instructions and tool chain as following, use RTOS SDK only, https://github.com/espressif/ESP8266_RTOS_SDK.
 
 
+To embeds image to this read.me
+![alt text](http://url/to/img.png)  
+
+Testing and speaker  
+https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_build.jpg  
+![alt text](https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_build.jpg)
+
+Circuit and connection  
+https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_circuit.jpg  
+![alt text](https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_circuit.jpg)
+
+web radio and the streaming MP3 audio  
+https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_rthk2.jpg  
+![alt text](https://github.com/xiaolaba/ESP8266_MP3_DECODER/blob/master/rom_RTHK2_public/xiaolaba_ESP8266_web_radio_rthk2.jpg)  
+
+
+
+
+
 
 
 
