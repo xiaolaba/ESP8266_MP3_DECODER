@@ -8,6 +8,9 @@ cls
 @echo ensure your ESP module is in bootload mode, how to do that:
 @echo hold RESET button, hold FLASH button, release RESET button, release FLASH button, done.
 
+@rename the programming tool to exe for you
+copy esptool_exe esptool.exe /y
+
 @echo.
 if [%1]==[] goto no_com
 
